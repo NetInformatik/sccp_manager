@@ -262,7 +262,9 @@ class extconfigs
         'Tasmania' => array('offset' => '600', 'daylight' => 'Daylight'),
         'Central Pacific' => array('offset' => '660', 'daylight' => ''),
         'Fiji' => array('offset' => '720', 'daylight' => ''),
-        'New Zealand' => array('offset' => '720', 'daylight' => 'Daylight')
+        'New Zealand' => array('offset' => '720', 'daylight' => 'Daylight'),
+        /* American Cities/Regions */
+        'America/Chicago' => array('offset' => '-360', 'daylight' => '', 'cisco_code' => 'Central Standard Time'),
     );
 
     public function validate_init_path($confDir = '', $db_vars, $sccp_driver_replace = '')
